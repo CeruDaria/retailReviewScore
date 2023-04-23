@@ -18,4 +18,7 @@ Features were engineered and grouped into 2 categories: customer-journey-related
 The dataset already contain a product category variable but there were more than 70 categories. To reduce the number of categories, a new variable was created by grouping category names together based on cosine similarity between phrases and words of the original category names using K-means clustering.
 
 ## Modeling
-2 models 
+2 models were chosen, one for its interpretability and the other for its predictive performance.
+
+## Final results
+The predictions generated with the test data yield an accuracy of 88%.
